@@ -12,7 +12,29 @@
 <body>
     <header>
         <div class="header__wrap">
-            <h1 class="header__h1"><img src="/common/img/main_logo.png" alt=""></h1>
+            <button id="btnHam" class="header__button-ham">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="header__col1">
+                <a href="http://www.asiawithoutasia.com/index">전시장</a>
+                <span></span>
+                <a href="http://www.asiawithoutasia.com/15">뉴스</a>
+                <span></span>
+                <a href="http://www.asiawithoutasia.com/16">아카이브</a>
+                <span></span>
+                <button id="langBtn" class="header__col1-button">
+                    <img src="/common/img/flag_kr_square.png" alt="">
+                    <img src="/common/img/down_triangle.png" alt="">
+                </button>
+                <ul id="langBox" class="header__col1-box">
+                    <li><a href="">한국어</a></li>
+                    <li><a href="">English</a></li>
+                </ul>
+            </div>
+            <a href="" class="header__col2"><img src="/common/img/header_logo.jpg" alt="header logo Loogking for Another Family"></a>
+            <a href="https://www.mmca.go.kr/" class="header__col3"><img src="/common/img/main_logo.png" alt="header logo MMCA"></a>
         </div>
     </header>
     <main>
@@ -387,6 +409,16 @@
                 <b>제13조(개인정보 처리방침 시행 및 변경)</b><br>
                 이 개인정보 처리방침은 20XX. X. X부터 적용됩니다.<br>
             </p>
+        </div>
+    </div>
+    <div id="navPopup" class="navPopup">
+        <div id="navBG" class="navPopup__bg"></div>
+        <div id="navCont" class="navPopup__container">
+            <ul>
+                <li class="on"><a href="">전시장</a></li>
+                <li><a href="">뉴스</a></li>
+                <li><a href="">아카이브</a></li>
+            </ul>
         </div>
     </div>
     <footer>
